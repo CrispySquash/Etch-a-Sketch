@@ -17,6 +17,8 @@ sizeButton.addEventListener('click', function () {
 
 restartButton.addEventListener('click', removeColor);
 
+defaultGrid();
+
 //setting up default grid
 function defaultGrid(){
     gridSize(24)
