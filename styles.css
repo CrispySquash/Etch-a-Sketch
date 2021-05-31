@@ -4,15 +4,15 @@
 
 .container {
     padding: 0;
-    margin: 0 auto;
-    width: 960px;
-    height: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+    height: 40rem;
     background-color: rgb(207, 200, 200);
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
 }
 
-.square {
+.div {
     padding: 0;
     margin: 0;
     border: 0.4px solid black
